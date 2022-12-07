@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.section_input,
+.section_output {
+  height: 98vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.section_input {
+  background-color: aquamarine;
+}
+.section_output {
+  background-color: burlywood;
+}
+
+.listElement {
+  cursor: pointer;
+}
